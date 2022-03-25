@@ -12,11 +12,8 @@ setuptools.setup(
     description='Embarks on a legendary data analysis quest with this magical data toolkit',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/mike-huls/toolbox',
-    project_urls = {
-        "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
-    },
+    url='https://github.com/mandel94/datalchemy',
     license='MIT',
-    packages=['toolbox'],
-    install_requires=['requests'],
+    packages=['datalchemy'],
+    install_requires=['pandas', 'numpy'],
 )
