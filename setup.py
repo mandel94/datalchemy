@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='datalchemy',
-    version='0.0.3',
+    version='0.0.4',
     author='Manuel De Luzi',
     author_email='manueldeluzi@gmail.com',
     description='Embarks on a legendary data analysis quest with this magical data toolkit',

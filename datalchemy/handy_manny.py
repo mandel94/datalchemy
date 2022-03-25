@@ -10,8 +10,8 @@ import numpy as np
 import json
 import pdb
 
-from query_toolkit import query
-from refactoring_toolkit import refactors, refactors_dict
+from .query_toolkit import query
+from .refactoring_toolkit import refactors, refactors_dict
 
 
 
